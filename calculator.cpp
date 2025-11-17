@@ -19,3 +19,11 @@ double Calculator::divide(int a, int b) {
     }
     return 0.0;
 }
+
+int Calculator::power(int a, int b) {
+    int result = 1;
+    for (int i = 0; i < b; ++i) {
+        result *= a;
+    }
+    return result;
+}

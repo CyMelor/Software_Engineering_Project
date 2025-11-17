@@ -8,6 +8,7 @@ public:
     int subtract(int a, int b);
     int multiply(int a, int b);
     double divide(int a, int b);
+    int power(int a, int b);
 };
 
 #endif
